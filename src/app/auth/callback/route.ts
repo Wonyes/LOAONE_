@@ -1,0 +1,43 @@
+import { createServerClient } from "@supabase/ssr";
+import { NextResponse } from "next/server";
+import { cookies } from "next/headers";
+
+export async function GET(request: Request) {
+  const requestUrl = new URL(request.url);
+  const code = requestUrl.searchParams.get("code");
+  const redirect = requestUrl.searchParams.get("redirect") || "/";
+  const safeRedirect =
+    redirect.startsWith("/") && !redirect.startsWith("//") ? redirect : "/";
+
+  if (code) {
+    const cookieStore = await cookies();
+
+    const supabase = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+      {
+        cookies: {
+          get(name: string) {
+            return cookieStore.get(name)?.value;
+          },
+          set(name: string, value: string, options: any) {
+            cookieStore.set({ name, value, ...options });
+          },
+          remove(name: string, options: any) {
+            cookieStore.set({ name, value: "", ...options });
+          },
+        },
+      }
+    );
+
+    const {
+      data: { session },
+    } = await supabase.auth.exchangeCodeForSession(code);
+
+    if (session?.user && !session.user.user_metadata?.main_character) {
+      return NextResponse.redirect(`${requestUrl.origin}/setup-character`);
+    }
+  }
+
+  return NextResponse.redirect(`${requestUrl.origin}${safeRedirect}`);
+}
