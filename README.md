@@ -14,11 +14,8 @@
 
 <br />
 
-**[🌐 Live Demo](https://loaone.vercel.app)** · **[📋 PRD](docs/PRD.md)** · **[🔧 Improvements](docs/IMPROVEMENTS.md)** · **[🐛 Bug Report](https://github.com/dnjsalsgh/loaone/issues)**
-
+**[🌐 Live Demo](https://loaone.vercel.app)**  **[📋 PRD](docs/PRD.md)** 
 <br />
-
-![LoaOne Preview](https://via.placeholder.com/900x450/1e1b4b/ffffff?text=LoaOne+Preview)
 
 </div>
 
@@ -33,7 +30,6 @@
 - [기술적 도전과 해결](#-기술적-도전과-해결)
 - [시작하기](#-시작하기)
 - [프로젝트 구조](#-프로젝트-구조)
-- [라이선스](#-라이선스)
 
 ---
 
