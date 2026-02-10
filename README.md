@@ -14,11 +14,8 @@
 
 <br />
 
-**[🌐 Live Demo](https://loaone.vercel.app)** · **[📋 PRD](docs/PRD.md)** · **[🔧 Improvements](docs/IMPROVEMENTS.md)** · **[🐛 Bug Report](https://github.com/dnjsalsgh/loaone/issues)**
-
+**[🌐 Live Demo](https://loaone.vercel.app)** 
 <br />
-
-![LoaOne Preview](https://via.placeholder.com/900x450/1e1b4b/ffffff?text=LoaOne+Preview)
 
 </div>
 
