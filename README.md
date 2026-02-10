@@ -14,7 +14,7 @@
 
 <br />
 
-**[🌐 Live Demo](https://loaone.vercel.app)** 
+**[🌐 Live Demo](https://loaone.vercel.app)**  **[📋 PRD](docs/PRD.md)** 
 <br />
 
 </div>
