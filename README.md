@@ -14,6 +14,30 @@
 
 <br />
 
+<div align="center">
+  <h2>📱 Project Screenshots</h2>
+  <br />
+
+  <p>
+    <img src="https://github.com/user-attachments/assets/5d21fb80-bc8e-4ef6-b331-f3d6e0bf7acd" width="31%" alt="메인 페이지" style="border-radius: 10px; border: 1px solid #eee;" />
+    <img src="https://github.com/user-attachments/assets/b62bce06-7022-4f45-8734-27a1ed6d372e" width="31%" alt="캐릭터 상세 정보" style="border-radius: 10px; border: 1px solid #eee;" />
+    <img src="https://github.com/user-attachments/assets/25237297-73db-40b7-9e48-667118a736c0" width="31%" alt="마이 페이지" style="border-radius: 10px; border: 1px solid #eee;" />
+  </p>
+  <p align="center">
+    <sub><i>메인 페이지 &nbsp; | &nbsp; 캐릭터 상세 정보 &nbsp; | &nbsp; 마이 페이지</i></sub>
+  </p>
+
+  <br />
+
+  <p>
+    <img src="https://github.com/user-attachments/assets/39c453b1-bfd2-4c14-a46e-b9d0a781e008" width="47%" alt="내 아바타 자랑" style="border-radius: 10px; border: 1px solid #eee;" />
+    <img src="https://github.com/user-attachments/assets/c86656e4-bbca-47f3-80ed-ef78d64f6ac1" width="47%" alt="내 아바타 자랑 등록" style="border-radius: 10px; border: 1px solid #eee;" />
+  </p>
+  <p align="center">
+    <sub><i>내 아바타 자랑 게시판 &nbsp; | &nbsp; 아바타 등록 프로세스</i></sub>
+  </p>
+</div>
+
 **[🌐 Live Demo](https://loaone.vercel.app)**  **[📋 PRD](PRD.md)** 
 <br />
 
